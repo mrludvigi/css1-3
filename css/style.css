@@ -75,6 +75,7 @@ h1{
     padding-left: 150px;
 }
 .img-thre{
+    padding-top: 30px;
     width: 696px;
     height: 415px;
 }
@@ -108,14 +109,34 @@ h1{
     padding-left: 30px;
 }
 .theoryp{
+    padding-top: 20px;
     color: #414651;
     font-size: 24px;
     line-height: 24px;
     font-weight: 800;
 }
-ul{
-    color: #C27512;
-    font-size: 16px;
-    line-height: 24px;
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    position: relative;
     font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #C27512;
+}
+
+ul li::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-color: black;
+    border-radius: 90px;
+    position: absolute;
+    left: -25px; 
+    top: 20px; 
 }
