@@ -39,6 +39,8 @@ h1{
     font-weight: 400;
 }
 .img-one{
+    width: 100%;
+    height: auto;
     max-width: 696px;
     max-height: 415px;
 }
@@ -50,8 +52,10 @@ h1{
     text-align: center;
 }
 .img-two{
-    width: 879px;
-    height: 415px;
+    max-width: 879px;
+    max-height: 415px;
+    width: 100%;
+    height: auto;
 }
 .section2h2{
     font-weight: 900;
@@ -67,8 +71,10 @@ h1{
 }
 .img-thre{
     padding-top: 30px;
-    width: 696px;
-    height: 415px;
+    width: 100%;
+    height: auto;
+    max-width: 696px;
+    max-height: 415px;
     padding-bottom: 80px;
 }
 .section3{
