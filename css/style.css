@@ -1,20 +1,17 @@
 body{
-    margin-left: 50px;
+    margin-left: 74px;
 }
 h1{
-    width: 704px;
-    height: 86px;
-    padding-left: 608px;
+    color: #000;
     padding-top: 48px;
     text-align: center;
+    font-style: normal;
     font-size: 72px;
     line-height: 86.4px;
     font-weight: 700;
 }
 .center{
-    padding-left: 294px;
-    width: 1220px;
-    height: 64px;
+    max-width: 1220px;
     font-size: 24px;
     line-height: 32px;
     color: #FF8000;
@@ -22,58 +19,51 @@ h1{
     font-weight: 700;
 }
 .section1{
-    width: 696px;
-    height: 662px;
+    max-width: 696px;
+    max-height: 662px;
     margin-bottom: 50px;
     padding-bottom: 40px;
 }
 .section1h2{
     color: #D9AE00;
-    width: 681px;
-    height: 48px;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
 }
 .section1p{
     color: #6D81B4;
-    width: 681px;
-    height: 145px;
+    max-width: 681px;
+    max-height: 145px;
     font-size: 24px;
-    line-height: 28.8px;
+    line-height: normal;
     font-weight: 400;
 }
 .img-one{
-    width: 696px;
-    height: 415px;
+    max-width: 696px;
+    max-height: 415px;
 }
 .section2{
-    width: 1007px;
-    height: 717px;
+    padding: 64px;
+    max-width: 1007px;
     border: solid;
     background-color: #FFCEBE;
+    text-align: center;
 }
 .img-two{
     width: 879px;
     height: 415px;
-    padding-left: 70px;
 }
 .section2h2{
     font-weight: 900;
     font-size: 40px;
-    line-height: 48px;
-    text-align: center;
+    line-height: normal;
     color: #F44E50;
 }
 .section2p{
     color: #8B2B2C;
-    width: 681px;
-    height: 72px;
-    text-align: center;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    padding-left: 150px;
+    line-height: normal;
 }
 .img-thre{
     padding-top: 30px;
@@ -82,9 +72,9 @@ h1{
     padding-bottom: 80px;
 }
 .section3{
-    padding-top: 40px;
-    width: 696px;
-    height: 1041px;
+    margin-top: 101px;
+    max-width: 696px;
+    max-height: 1041px;
 }
 .section3h2{
     color: #4716E4;
@@ -94,25 +84,25 @@ h1{
     text-align: right;
 }
 .container-pink{
+    text-align: center;
+    padding: 24px;
     background-color: #FFC1E3;
-    width: 696px;
-    height: 222px;
+    max-width: 696px;
+    max-height: 222px;
     border: solid;
     border-color: #FF5DA3;
 
 }
 .pink-p{
-    width: 648px;
-    height: 174px;
     font-size: 24px;
-    line-height: 28.8px;
+    line-height: normal;
     text-align: right;
     font-weight: 400;
     color:#616161;
-    padding-left: 30px;
 }
 .theoryp{
-    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 16px;
     color: #414651;
     font-size: 24px;
     line-height: 24px;
